@@ -100,3 +100,9 @@ button {
   letter-spacing: 16px;
   font-style: italic;
 }
+
+ul {
+  flex-wrap: wrap;
+  margin: auto;
+  background: #0795C3;
+}
