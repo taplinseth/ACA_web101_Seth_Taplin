@@ -101,8 +101,22 @@ button {
   font-style: italic;
 }
 
-ul {
-  flex-wrap: wrap;
+.parent {
+  display: flex;
   margin: auto;
-  background: #0795C3;
+  flex-direction: column;
+}
+
+.childOne {
+  background: green;
+  flex-wrap: wrap;
+}
+
+.childTwo {
+background: pink;
+}
+
+.childThree {
+  background: red;
+
 }
