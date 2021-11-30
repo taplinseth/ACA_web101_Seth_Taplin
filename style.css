@@ -105,11 +105,11 @@ button {
   display: flex;
   margin: auto;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .childOne {
   background: green;
-  flex-wrap: wrap;
 }
 
 .childTwo {
